@@ -1,0 +1,49 @@
+Title: Character Counting Program With Unit Tests In Python
+
+Description:
+This Project Includes Two Python Files:
+
+1. spttest.py
+   - Contains The Function 'countc(s, c)'
+   - This Function Counts How Many Times The Character 'c' Appears In The String 's'.
+   - It Loops Through Each Character In The String And Increments A Counter When A Match Is Found.
+   - The Function Is Case-Sensitive(Meaning 'A' And 'a' Are Different).
+
+2. test_spttest.py
+   - Contains Unit Tests For The 'countc' Function Using Python's Built-In 'unittest' Module.
+   - Tests Include Checking:
+       * Counting Existing Characters
+       * Handling Characters That Do Not Appear
+       * Case Sensitivity(Uppercase Vs Lowercase)
+       * Empty String Input
+       * Special Characters
+
+How To Run:
+
+1. Make Sure Both Files('spttest.py' And 'test_spttest.py')Are In The Same Directory.
+2. Open Terminal Or Command Prompt.
+3. Navigate To That Directory.
+4. To Run The Tests, Execute:
+
+    python -m unittest test_spttest.py
+
+   Or Simply:
+
+    python test_spttest.py
+
+Requirements:
+- Python 3.6 Or Newer
+- No Additional Libraries Required
+
+Example Usage:
+
+In 'spttest.py' You Can Use The Function Like This:
+
+    print(countc("banana", "a"))   # Output: 3
+    print(countc("hello", "z"))    # Output: 0
+
+Notes:
+- The Function Is Case-Sensitive.
+- The Tests Ensure That The Function Works Correctly For Different Cases.
+
+Thank You. 

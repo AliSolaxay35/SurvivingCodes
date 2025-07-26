@@ -1,0 +1,41 @@
+Title:Python Program To Add Two Numbers
+
+Description:
+This Is A Simple Python Program That Adds Two Numbers Together.
+The Program Checks If The First Number Is Not Zero. If It Isn't, It Prints The Sum.
+Otherwise, It Displays A Message That The First Number Is Zero.
+
+Code:
+
+    first_number = 5
+    second_number = 8
+    if first_number != 0:
+        print(f"a+b = {first_number+second_number}")
+    else:
+        print("a = 0!")
+
+Requirements:
+- Python 3 Installed(Version 3.6 Or Higher Recommended)
+
+How To Run:
+1. Save The Code In A File With A '.py' Extension, For Example:'SPT.py'
+2. Open Command Prompt(Windows) Or Terminal(Mac/Linux)
+3. Navigate To The Directory Where The File Is Saved
+4. Run The Following Command:
+
+    On Windows:
+        python SPT.py
+
+    On Mac/Linux:
+        python3 SPT.py
+
+Expected Output(With Current Values):
+
+    a+b = 13
+
+Notes:
+- If 'first_number' Is Set To 0, The Output Will Be:
+  
+    a = 0!
+
+Thank You.

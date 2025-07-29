@@ -1,0 +1,24 @@
+Title: Generator Practice - MT.py And MT2.py
+
+Description:
+
+This Repository Contains Two Simple Python Scripts Demonstrating Basic Generator Usage.
+
+1. MT.py:
+   - Defines A Generator Function Called 'my_generator'.
+   - Yields The Values 1, 2, And 3 One By One.
+   - Demonstrates How To Access Generator Items Using 'next()'.
+
+2. MT2.py:
+   - Defines A Generator Function Called 'count_up'.
+   - Uses A For Loop To Yield Values From 0 To 2.
+   - Demonstrates How To Convert A Generator To A List Using 'list()'.
+
+Purpose:
+These Examples Are Created As Part Of A Python Generator Practice Session. They Help Understand The Core Behavior Of Generator Functions And Yield Statements In A Simple, Readable Way.
+
+Note:
+You Can Expand This Collection With More Generator Examples In The Future.
+
+
+Thank You.  
